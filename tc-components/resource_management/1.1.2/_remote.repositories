@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 21 21:02:27 BRT 2018
+resource_management-1.1.2.pom>=
+resource_management-1.1.2.jar>=
