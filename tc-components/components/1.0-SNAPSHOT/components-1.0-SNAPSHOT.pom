@@ -96,6 +96,19 @@
                         <target>1.5</target>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <configuration>
+                        <archive>
+                            <manifestEntries>
+                                <Component-Vendor>Topcoder Inc.</Component-Vendor>
+                                <Component-Name>${project.artifactId}</Component-Name>
+                                <Component-Version>${project.version}</Component-Version>
+                            </manifestEntries>
+                        </archive>
+                    </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
